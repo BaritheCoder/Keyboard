@@ -10,10 +10,10 @@ A modified **1800 layout** with **96 total keys**  and a rotary encoderfor manag
 
 ## What is it?
 
-It’s a keyboard with a customizable **OLED** that helps manage and control parts of the firmware like:
-- changing backlighting color
-- showing typing speed
-- system/status info
+A keyboard witha customizable small screen to show thinkgs like:
+- Volumr
+- Typing speed
+- system info
 - and much more
 
 The firmware is also **open-source**, so anyone can customize and add features to the keyboard.
@@ -26,19 +26,12 @@ The firmware is also **open-source**, so anyone can customize and add features t
 
 ![PCB](docs/images/pcb.png)
 
-### Notes
-- Controller: **YD-RP2040**
-- You may be able to use a standard **Raspberry Pi Pico** (not tested)
-- Hot-swap: Yes/No
-- RGB LEDs: SK6812/WS2812 (___ pcs)
-- OLED: I2C (___)
-
 ---
 
 ## Case
 
 The keyboard is comprised out of **3 parts**:
-- The panel which holds the switches
+- Frame
 - A back panel
 - A front panel
 
@@ -76,7 +69,7 @@ You should weld the **front** and the **back** piece but **not** the panels as t
 
 ---
 
-### 💰 Estimated Total Cost
+### 💰 Estimated Total Cost: 113 Euro(134 USD)
 
 
 ## Compiling & flashing firmware
