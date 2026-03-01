@@ -55,6 +55,30 @@ You should weld the **front** and the **back** piece but **not** the panels as t
 
 ---
 
+| Product name | Product description | Product link | Product unit cost inc. Tax (€) | Product amount | Product total cost (€) | Running total (€ with tax and shipping) |
+|---|---|---|---:|---:|---:|---:|
+| YD-RP2040 | Raspbery Pico like microcntroller board | [Link](#) | 1.42 | 1 | 1.42 | 1.42 |
+| 74AHCT125 | Logic level shifter | [Link](#) | 2.95 | 1 | 2.95 | 4.37 |
+| 0.1µF 0805 SMD Capacitor x100 | Decoupling capacitors | [Link](#) | 0.0161 | 100 | 1.61 | 5.98 |
+| 470µF Bulk Capacitor 7343 | Bulk capacitors | [Link](#) | 0.788 | 5 | 3.94 | 9.92 |
+| 4.7kΩ 0805 Resistor | Pull-up resistor | [Link](#) | 4.10 | 1 | 4.10 | 14.02 |
+| SOD-123 Diode | Keyboard matrix diode | [Link](#) | 0.0183 | 100 | 1.83 | 15.85 |
+| SK6812 Mini RGB LEDs x100 | Keyswitch LEDs | [Link](#) | 0.0365 | 100 | 3.65 | 19.50 |
+| EC11 Rotary Encoder | The twisty thing on the top right | [Link](#) | 1.285 | 2 | 2.57 | 22.07 |
+| Rotary Encoder Knob | Knob for the rotary encoder | [Link](#) | 0.675 | 2 | 1.35 | 23.42 |
+| Gateron Jupiter Banana | Creamy mechanical switches | [Link](#) | 0.28 | 110 | 30.80 | 54.22 |
+| Gateron Hot-Swap Sockets x110 | PCB sockets for switches | [Link](#) | 0.10 | 110 | 11.00 | 65.22 |
+| Silicone Feet 12x3 | Anti-slip feet for bottom of case | [Link](#) | 0.2075 | 4 | 0.83 | 66.05 |
+| M3x8 Screws | For case assembly | [Link](#) | 2.28 | 4 | 2.28 | 68.33 |
+| Hot Melt Inserts M3xL4xOD4.2 | For case assembly | [Link](#) | 0.0973 | 30 | 2.92 | 71.25 |
+| 0.91" OLED Display 128x32 White | For testing and shortcuts | [Link](#) | 1.96 | 1 | 1.96 | 73.21 |
+| PCB | The main board | [Link](#) | 40.00 | 1 | 40.00 | 113.21 |
+
+---
+
+### 💰 Estimated Total Cost
+
+
 ## Compiling & flashing firmware
 
 > ℹ️ **Note**  
