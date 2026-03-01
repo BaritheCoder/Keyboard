@@ -1,10 +1,10 @@
-# YDR7-Keyboard
+# 1800 compact keyboard
 
-A mechanical keyboard build on **YD-RP2040** with an **OLED display** and **backlights**.
+A mechanical keyboard build with the **YD-RP2040** Pico like microcontroller with an **OLED display**, **Rotary encoder** for basic functions and **backlights**.
 
 Build for **MX switches**.
 
-A slightly modified **96% keyboard layout** with **4 extra keys** for managing onboard firmware (**___ keys total**).
+A modified **1800 layout** with **96 total keys**  and a rotary encoderfor managing onboard firmware (**___ keys total**).
 
 ---
 
