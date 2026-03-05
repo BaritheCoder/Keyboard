@@ -35,9 +35,13 @@ The case is split into **3 parts**:
 - Back panel
 - Front panel
 
+- 
+
 | | |
 |:---:|:---:|
-| ![Case Front](https://github.com/user-attachments/assets/6a6a1147-d90b-47d4-9a4e-4a0a254ca019) | ![Case Back](https://github.com/user-attachments/assets/6a6a1147-d90b-47d4-9a4e-4a0a254ca019) |
+| ![Case Front](<img width="1442" height="733" alt="image" src="https://github.com/user-attachments/assets/3950b72e-dcc6-4def-8f80-6893158661e7" />
+) | ![Case Back](<img width="1483" height="776" alt="image" src="https://github.com/user-attachments/assets/49017099-9fdd-4c6a-921a-7210347b6aa2" />
+) |
 
 ## Bill of Materials
 
