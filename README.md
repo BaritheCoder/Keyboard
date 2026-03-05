@@ -25,8 +25,7 @@ Since the firmware is open-source, anyone can extend it and add new features wit
 
 | PCB | Schematic |
 |:---:|:---:|
-| ![PCB](<img width="1655" height="565" alt="image" src="https://github.com/user-attachments/assets/6a6a1147-d90b-47d4-9a4e-4a0a254ca019" />
-) | ![Schematic](https://github.com/BaritheCoder/Keyboard/blob/main/Images/Screenshot%202026-02-20%20193307.png?raw=true) |
+| ![PCB](https://github.com/user-attachments/assets/6a6a1147-d90b-47d4-9a4e-4a0a254ca019) | ![Schematic](https://github.com/BaritheCoder/Keyboard/blob/main/Images/Screenshot%202026-02-20%20193307.png?raw=true) |
 
 ## Case
 
