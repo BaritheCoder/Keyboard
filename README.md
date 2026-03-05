@@ -61,7 +61,7 @@ The case is split into **3 parts**:
 | PCB | Main board | [Link](#) | 40.00 | 1 | 40.00 | 113.21 |
 | Keycap Set | Keycaps (133 keys) | [Link](#) | 0.142 | 133 | 18.82 | 132.03 |
 
-### 💰 Estimated Total: ~€132 (~$143 USD)
+### 💰 Estimated Total: ~ €132 (~ $143 USD)
 
 ---
 
