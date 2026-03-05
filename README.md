@@ -23,9 +23,9 @@ Since the firmware is open-source, anyone can extend it and add new features wit
 
 > PCB renders/screenshots coming soon.
 
-![PCB](docs/images/pcb.png)
-
----
+| PCB | Schematic |
+|:---:|:---:|
+| ![PCB](docs/images/pcb.png) | ![Schematic](docs/images/schematic.png) |
 
 ## Case
 
