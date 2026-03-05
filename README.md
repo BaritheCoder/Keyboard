@@ -35,16 +35,8 @@ The case is split into **3 parts**:
 - Back panel
 - Front panel
 
-Because of how large it is, printing the whole thing in one go isn't really possible on most printers. Sliced versions are in the `CAD/Sliced` folder — print them separately and weld the seams with a soldering iron.
-
-Weld the **front and back pieces** together, but leave the panels loose since the frame holds them in place anyway.
-
 ![Case exploded](docs/images/case_exploded.png)
 
-> ⚠️ **Heads up**  
-> Even the sliced version needs a **___ x ___ mm** or larger print bed, so check before you start.
-
----
 
 ## Bill of Materials
 
