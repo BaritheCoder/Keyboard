@@ -1,85 +1,70 @@
-# 1800 compact keyboard
+# 1800 Compact Keyboard
 
-A mechanical keyboard build with the **YD-RP2040** Pico like microcontroller with an **OLED display**, **Rotary encoder** for basic functions and **backlights**.
+A custom mechanical keyboard built around the **YD-RP2040** microcontroller, featuring an **OLED display**, **rotary encoder**, and **RGB backlighting** — all designed for MX switches.
 
-Build for **MX switches**.
-
-A modified **1800 layout** with **96 total keys**  and a rotary encoderfor managing onboard firmware (**___ keys total**).
+The layout is a modified **1800 compact** with **96 keys** total. The firmware is fully open-source, so feel free to dig in and make it your own.
 
 ---
 
-## What is it?
+## What's the idea?
 
-A keyboard witha customizable small screen to show thinkgs like:
-- Volumr
-- Typing speed
-- system info
-- and much more
+The OLED screen is the main thing that sets this apart — it can show stuff like:
 
-The firmware is also **open-source**, so anyone can customize and add features to the keyboard.
+- Volume level
+- Typing speed (WPM)
+- System info
+- Whatever else you want to add
+
+Since the firmware is open-source, anyone can extend it and add new features without too much hassle.
 
 ---
 
 ## PCB
 
-> Put PCB renders/screenshots here.
+> PCB renders/screenshots coming soon.
 
-![PCB](docs/images/pcb.png)
-
----
+| PCB | Schematic |
+|:---:|:---:|
+| ![PCB](docs/images/pcb.png) | ![Schematic](docs/images/schematic.png) |
 
 ## Case
 
-The keyboard is comprised out of **3 parts**:
+The case is split into **3 parts**:
+
 - Frame
-- A back panel
-- A front panel
-
-Due to the size it’s impossible to print an entire piece at once, that’s why there are sliced versions in the  
-`CAD/Sliced` folder.
-
-You can print them separately and then weld them together with a soldering iron.  
-You should weld the **front** and the **back** piece but **not** the panels as they are held together by the frame anyway.
+- Back panel
+- Front panel
 
 ![Case exploded](docs/images/case_exploded.png)
 
-> ⚠️ **Warning**  
-> Due to the size of the keyboard, even the sliced version requires **___ x ___ mm** or larger printing plate.
 
----
+## Bill of Materials
 
-| Product name | Product description | Product link | Product unit cost inc. Tax (€) | Product amount | Product total cost (€) | Running total (€ with tax and shipping) |
+| Product | Description | Link | Unit Cost (€ inc. Tax) | Qty | Total (€) | Running Total (€) |
 |---|---|---|---:|---:|---:|---:|
-| YD-RP2040 | Raspbery Pico like microcntroller board | [Link](#) | 1.42 | 1 | 1.42 | 1.42 |
+| YD-RP2040 | Raspberry Pico-like MCU | [Link](#) | 1.42 | 1 | 1.42 | 1.42 |
 | 74AHCT125 | Logic level shifter | [Link](#) | 2.95 | 1 | 2.95 | 4.37 |
-| 0.1µF 0805 SMD Capacitor x100 | Decoupling capacitors | [Link](#) | 0.0161 | 100 | 1.61 | 5.98 |
-| 470µF Bulk Capacitor 7343 | Bulk capacitors | [Link](#) | 0.788 | 5 | 3.94 | 9.92 |
+| 0.1µF 0805 SMD Capacitor x100 | Decoupling caps | [Link](#) | 0.0161 | 100 | 1.61 | 5.98 |
+| 470µF Bulk Capacitor 7343 | Bulk caps | [Link](#) | 0.788 | 5 | 3.94 | 9.92 |
 | 4.7kΩ 0805 Resistor | Pull-up resistor | [Link](#) | 4.10 | 1 | 4.10 | 14.02 |
-| SOD-123 Diode | Keyboard matrix diode | [Link](#) | 0.0183 | 100 | 1.83 | 15.85 |
-| SK6812 Mini RGB LEDs x100 | Keyswitch LEDs | [Link](#) | 0.0365 | 100 | 3.65 | 19.50 |
-| EC11 Rotary Encoder | The twisty thing on the top right | [Link](#) | 1.285 | 2 | 2.57 | 22.07 |
-| Rotary Encoder Knob | Knob for the rotary encoder | [Link](#) | 0.675 | 2 | 1.35 | 23.42 |
-| Gateron Jupiter Banana | Creamy mechanical switches | [Link](#) | 0.28 | 110 | 30.80 | 54.22 |
-| Gateron Hot-Swap Sockets x110 | PCB sockets for switches | [Link](#) | 0.10 | 110 | 11.00 | 65.22 |
-| Silicone Feet 12x3 | Anti-slip feet for bottom of case | [Link](#) | 0.2075 | 4 | 0.83 | 66.05 |
-| M3x8 Screws | For case assembly | [Link](#) | 2.28 | 4 | 2.28 | 68.33 |
-| Hot Melt Inserts M3xL4xOD4.2 | For case assembly | [Link](#) | 0.0973 | 30 | 2.92 | 71.25 |
-| 0.91" OLED Display 128x32 White | For testing and shortcuts | [Link](#) | 1.96 | 1 | 1.96 | 73.21 |
-| PCB | The main board | [Link](#) | 40.00 | 1 | 40.00 | 113.21 |
+| 330Ω 0805 Resistor | Voltage regulator resistor | [Link](#) | — | — | 0.00 | 14.02 |
+| SOD-123 Diode | Matrix diodes | [Link](#) | 0.0183 | 100 | 1.83 | 15.85 |
+| SK6812 Mini RGB LEDs x100 | Per-key RGB | [Link](#) | 0.0365 | 100 | 3.65 | 19.50 |
+| EC11 Rotary Encoder | Volume/function knob | [Link](#) | 1.285 | 2 | 2.57 | 22.07 |
+| Rotary Encoder Knob | Knob cap | [Link](#) | 0.675 | 2 | 1.35 | 23.42 |
+| Gateron Jupiter Banana | Switches | [Link](#) | 0.28 | 110 | 30.80 | 54.22 |
+| Gateron Hot-Swap Sockets x110 | Switch sockets | [Link](#) | 0.10 | 110 | 11.00 | 65.22 |
+| Silicone Feet 12x3 | Bottom case feet | [Link](#) | 0.2075 | 4 | 0.83 | 66.05 |
+| M3x8 Screws | Case assembly | [Link](#) | 2.28 | 4 | 2.28 | 68.33 |
+| Hot Melt Inserts M3xL4xOD4.2 | Case assembly | [Link](#) | 0.0973 | 30 | 2.92 | 71.25 |
+| 0.91" OLED Display 128x32 | Screen | [Link](#) | 1.96 | 1 | 1.96 | 73.21 |
+| PCB | Main board | [Link](#) | 40.00 | 1 | 40.00 | 113.21 |
+| Keycap Set | Keycaps (133 keys) | [Link](#) | 0.142 | 133 | 18.82 | 132.03 |
+
+### 💰 Estimated Total: ~ €132 (~ $143 USD)
 
 ---
 
-### 💰 Estimated Total Cost: 113 Euro(134 USD)
+## Firmware
 
-
-## Compiling & flashing firmware
-
-> ℹ️ **Note**  
-> You should have **CMAKE** and **GCC** installed along with Arm embedded GNU Toolchain `arm-none-eabi-gcc`
-
-For compilation run the following commands in the project folder:  
-Note that the first command may take a while as it is downloading the SDK from git.
-
-```bash
-cmake -S Firmware -B Firmware/build -G "Ninja"
-cmake --build Firmware/build --target Keyboard_Firmware
+Firmware documentation and build instructions will be added once the keyboard is fully assembled and the code has been tested on real hardware. No point documenting something that hasn't been verified yet.
