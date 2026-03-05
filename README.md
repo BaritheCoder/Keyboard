@@ -35,7 +35,7 @@ The case is split into **3 parts**:
 - Back panel
 - Front panel
 
-![Case exploded](docs/images/case_exploded.png)
+| ![PCB](https://github.com/user-attachments/assets/6a6a1147-d90b-47d4-9a4e-4a0a254ca019) | ![Schematic](https://github.com/BaritheCoder/Keyboard/blob/main/Images/Screenshot%202026-02-20%20193307.png?raw=true) |
 
 
 ## Bill of Materials
