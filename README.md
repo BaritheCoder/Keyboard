@@ -35,7 +35,8 @@ The case is split into **3 parts**:
 - Back panel
 - Front panel
 
-- 
+- <img width="1100" height="375" alt="image" src="https://github.com/user-attachments/assets/77eae500-e717-41f1-bb8c-cea13b9a5893" />
+
 
 | | |
 |:---:|:---:|
