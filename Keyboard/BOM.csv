@@ -1,0 +1,19 @@
+Product name;Product description;Product link;Product unit cost inc. Tax (ˆ);Product amount;Product total cost (ˆ);Running total (ˆ with tax and shipping)
+YD-RP2040;Raspbery Pico like microcntroller board;Link;1,42;1;1,42;1,42
+74AHCT125;Logic level shifter;Link;2,95;1;2,95;4,37
+0.1 µF 0805 smd capacitor x 100;Decoupling capacitors;link;0,0161;100;1,61;5,98
+470µF  bulk capacitor 7343;Bulk capacitors;Link;0,788;5;3,94;9,92
+4.7? 0805 Resistor;Pull up resistor;Link;4,1;1;4,1;14,02
+330? 0805 Resistor;Voltge regualtor;Link;Same pack as 4.7? 0805 Resistor;0;0;14,02
+SOD-123 diode;keyboard matrix diode;Link;0,0183;100;1,83;15,85
+SK 6812 Mini e rgb leds;Keyswitch leds;Link;0,0365;100;3,65;19,5
+Ec 11 e switch rotary encoder;The twisty thing on the top right;Link;1,285;2;2,57;22,07
+Rotary encoder knob;Knob for the rotary encoder;Link;0,675;2;1,35;23,42
+Gateroon Jupiter banana;Creamy mechanical switches;Link;0,28;110;30,8;54,22
+Gateron hot swap sockets x110;Pcb sockets for the switches;Link;0,1;110;11;65,22
+Silicone feet 12x3;Anti slip feet for the botttom of the case;Link;0,2075;4;0,83;66,05
+M3x8 screws;For case assembly;Link;2,28;4;2,28;68,33
+Hot melt inserts M3xL4xOD4.2;For case assembly;Link;0,097333333;30;2,92;71,25
+ 0.91 inch OLED display 128x32 white;For testing and shortcuts;Link;1,96;1;1,96;73,21
+Pcb ;Estimated price;Link;40;1;40;113,21
+Keycap set;Keycaps;Link;0,142;133;18,82;132,03
